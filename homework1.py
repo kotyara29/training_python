@@ -15,5 +15,29 @@ if len(password) >= 8 and "@" in password or "#" in password:
 else:
     print("Password is weak")
 
+print(ord('A'))
 print(ord('Z'))
-print(chr(88))
+print(chr(65))
+print(chr(90))
+
+some_string = "If want to be okay, eaten apple evry day"
+print(some_string[:10][::-1])
+
+# кортеж ()
+# множество {}
+# список []
+
+'''многострочный комментарий
+продолжается здесь
+и здесь
+и тут
+три одинарные кавычки для начала
+и конца
+комментария'''
+
+def something (a, b)
+
+
+
+
+
