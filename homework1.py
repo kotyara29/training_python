@@ -1,43 +1,30 @@
-a = 11
-b = 9
 
 
-if a % 2 == 0 and b % 2 == 0 or a % 2 == 1 and b % 2 == 1:
-    print("True")
-else:
-    print("False")
+class Animal:
+    pass
 
 
-password = "soasasdasdasdasd"
-
-if len(password) >= 8 and "@" in password or "#" in password:
-    print("Password is strong")
-else:
-    print("Password is weak")
-
-print(ord('A'))
-print(ord('Z'))
-print(chr(65))
-print(chr(90))
-
-some_string = "If want to be okay, eaten apple evry day"
-print(some_string[:10][::-1])
-
-# кортеж ()
-# множество {}
-# список []
-
-'''многострочный комментарий
-продолжается здесь
-и здесь
-и тут
-три одинарные кавычки для начала
-и конца
-комментария'''
-
-def something (a, b)
+class Cat(Animal):
+    LAPS = 4
+    TAIL = True
+    def __init__(self, name, age=0):
+        self.age = age
+        self.sex = 0
+        self.weight = 0
+        self.name = ""
+        self.bread = ""
 
 
+   # def __new__(cls, *args, **kwargs):
+    #    pass
 
 
-
+if __name__ == '__main__':
+    vasilii = Cat('Vasilii', age=15)
+    chernish = Cat('Chernish')
+    # chernish.TAIL = "dsds"
+    print(vasilii.age)
+    print(chernish.TAIL)
+    print(f"Cat's name is {chernish.name}")
+    print(chernish)
+    print(Cat)
