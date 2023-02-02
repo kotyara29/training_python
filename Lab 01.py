@@ -56,11 +56,39 @@ for i in range(3):
     elif total_attempts == 0:
         print("Ошибка. Попыток больше нет. Игра окончена")
 
-# Task 5
+# Task 6
 
 import random
 
-matrix = [[random.randrange(0,10) for y in range(3)] for x in range(4)]
+matrix = [[random.randrange(0, 10) for y in range(3)] for x in range(4)]
+summa = 0
+max_elem = 0
+min_second_column = 0
+for i in range(len(matrix)):
+    summa += sum(matrix[i])
+    if max_elem < max(matrix[i]):
+        max_elem = max(matrix[i])
+
 print(matrix)
+print(summa)
+print(max_elem)
+print(sum(matrix[0]))
+print(min(matrix[0][1], matrix[1][1], matrix[2][1], matrix[3][1]))
+
+
+# Task 7
+
+name_list = []
+while True:
+    name = input()
+    if name == "END" or name == "end":
+        break
+    else:
+        name_list.append(name)
+
+# сделаем словарь из массива
+dict_from_array = {i : name_list.count(i) for i in name_list}
+for key, value in dict_from_array.items():
+    print(key, "-", value)
 
 
