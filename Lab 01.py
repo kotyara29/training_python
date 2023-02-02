@@ -41,19 +41,26 @@ name = input("Введите свое имя: ")
 poryadok = ["первая", "вторая", "третья"]
 number = random.randint(1, 10)
 total_attempts = 3
-attempt = input("Угадайте число от 1 до 10. У вас три попытки. Введите число: ")
+print("Угадайте число от 1 до 10. У вас три попытки.")
 for i in range(3):
+    total_attempts -= 1
+    attempt = int(input("Введите число: "))
     if attempt > number:
-        print(f"Ошибка. Ваша {poryadok[i]} попытка неверна. Подсказка: задуманное число больше {attempt}. Попробуйте еще раз!")
-        total_attempts -= 1
-        print(input("Введите число: "))
+        print(
+            f"Ошибка. Ваша {poryadok[i]} попытка неверна. Подсказка: задуманное число меньше {attempt}. Осталось попыток: {total_attempts}")
     elif attempt < number:
-        print(f"Ошибка. Ваша {poryadok[i]} попытка неверна. Подсказка: задуманное число меньше {attempt}. Попробуйте еще раз!")
-        total_attempts -= 1
-        print(input("Введите число: "))
-    elif attempt == number:
+        print(
+            f"Ошибка. Ваша {poryadok[i]} попытка неверна. Подсказка: задуманное число больше {attempt}. Осталось попыток: {total_attempts}")
+    if attempt == number:
         print("Поздравляю! Вы угадали число!")
     elif total_attempts == 0:
         print("Ошибка. Попыток больше нет. Игра окончена")
+
+# Task 5
+
+import random
+
+matrix = [[random.randrange(0,10) for y in range(3)] for x in range(4)]
+print(matrix)
 
 
