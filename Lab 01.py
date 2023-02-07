@@ -80,7 +80,7 @@ print(min(matrix[0][1], matrix[1][1], matrix[2][1], matrix[3][1]))
 
 name_list = []
 while True:
-    name = input()
+    name = input("Кто пересекает границу? Если людей нет, введите END: ")
     if name == "END" or name == "end":
         break
     else:
