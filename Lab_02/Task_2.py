@@ -1,7 +1,7 @@
-def new_power(a, b):
-    return a ** b
+def new_power():
+    x, y = map(int, input("Введите два целых числа (через пробел): ").split())
 
+    print(f"Число {x} в степени {y} = {x ** y}")
 
-x, y = map(int, input("Введите два целых числа (через пробел): ").split())
+new_power()
 
-print(f"Число {x} в степени {y} = {new_power(x, y)}")
