@@ -58,5 +58,9 @@ except AttributeError:
 
 # For RuntimeError
 # have no fckn idea how to call this error so far
-
+try:
+    def func():
+        func()
+except RuntimeError:
+    print("You have a Runtime Error here")
 
