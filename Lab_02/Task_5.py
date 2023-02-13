@@ -8,7 +8,7 @@ for i in range(len(sentence)):
         new_list.append(sentence[i])
     else:
         new_list.append(sentence[i])
-
+output = "".join(new_list)
 
 
 # for word in list_with_words:
@@ -16,4 +16,4 @@ for i in range(len(sentence)):
 #         new_list.append(word)
 
 
-#print(new_list)
+print(output)
