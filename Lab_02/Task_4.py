@@ -8,4 +8,4 @@ new_list = [a + random.random() for a in list_with_numbers if a % 2]
 # for i in list_with_numbers:
 #     if not i % 2:
 #         new_list.append(i + random.random())
-print(new_list)
+print(f"After refactoring it looks the same: {new_list}")
