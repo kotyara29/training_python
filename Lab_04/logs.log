@@ -1,0 +1,84 @@
+DEBUG:root:Уровень журнала: отладочное сообщение
+INFO:root:Уровень журнала: информационное сообщение
+WARNING:root:Уровень журнала: сообщение с предупреждением
+ERROR:root:Уровень журнала: сообщение с ошибкой
+CRITICAL:root:Уровень журнала: критическое сообщение
+DEBUG:root:Уровень журнала: отладочное сообщение
+INFO:root:Уровень журнала: информационное сообщение
+WARNING:root:Уровень журнала: сообщение с предупреждением
+ERROR:root:Уровень журнала: сообщение с ошибкой
+CRITICAL:root:Уровень журнала: критическое сообщение
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:This is a debug message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:This is a debug message
+INFO:root:This is an info message
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:This is a debug message
+INFO:root:This is an info messageblabla
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:This is a debug message
+INFO:root:This is an info messageblabla
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:Name: Customs
+DEBUG:root:This is a debug message
+INFO:root:This is an info messageblabla
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:Name: <__main__.Customs object at 0x100400a60>
+DEBUG:root:This is a debug message
+INFO:root:This is an info messageblabla
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:Name: sam, Date: 11, Customs Type: 2
+DEBUG:root:This is a debug message
+INFO:root:This is an info messageblabla
+WARNING:root:This is a warning message
+ERROR:root:This is an error message
+CRITICAL:root:This is a critical message
+DEBUG:root:Name: Mark, Date: 01, Customs Type: Inland
+DEBUG:root:Name: Xavier, Date: 22.03.2023, Customs Type: Inland
+DEBUG:root:['Name: Jose', 'Date: 10.01.1999', 'Customs Type: Inland']
+['Name: Andre', 'Date: 31.06.2020', 'Customs Type: Air']
+['Name: Gary', 'Date: 21.12.2012', 'Customs Type: Inland']
+['Name: Adam', 'Date: 01.01.2023', 'Customs Type: Air']
+['Name: Allan', 'Date: 22.02.1000', 'Customs Type: Inland']
+['Name: Paul', 'Date: 11.01.1999', 'Customs Type: Inland']
+['Name: Jane', 'Date: 31.05.1999', 'Customs Type: Air']
